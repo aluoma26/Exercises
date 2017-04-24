@@ -1,0 +1,15 @@
+C:\projects\individual-work\VSfirst\VSMathTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\projects\individual-work\VSfirst\VSMathTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\projects\individual-work\VSfirst\VSMathTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\projects\individual-work\VSfirst\VSMathTest\bin\Debug\VSMathTest.dll
+C:\projects\individual-work\VSfirst\VSMathTest\bin\Debug\VSMathTest.pdb
+C:\projects\individual-work\VSfirst\VSMathTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\projects\individual-work\VSfirst\VSMathTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\projects\individual-work\VSfirst\VSMathTest\bin\Debug\VSfirst.exe
+C:\projects\individual-work\VSfirst\VSMathTest\bin\Debug\VSfirst.pdb
+C:\projects\individual-work\VSfirst\VSMathTest\bin\Debug\VSfirst.exe.config
+C:\projects\individual-work\VSfirst\VSMathTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\projects\individual-work\VSfirst\VSMathTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\projects\individual-work\VSfirst\VSMathTest\obj\Debug\VSMathTest.csprojResolveAssemblyReference.cache
+C:\projects\individual-work\VSfirst\VSMathTest\obj\Debug\VSMathTest.dll
+C:\projects\individual-work\VSfirst\VSMathTest\obj\Debug\VSMathTest.pdb

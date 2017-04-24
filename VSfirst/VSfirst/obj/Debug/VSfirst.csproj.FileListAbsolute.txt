@@ -1,0 +1,8 @@
+C:\projects\individual-work\VSfirst\VSfirst\bin\Debug\VSfirst.exe.config
+C:\projects\individual-work\VSfirst\VSfirst\bin\Debug\VSfirst.exe
+C:\projects\individual-work\VSfirst\VSfirst\bin\Debug\VSfirst.pdb
+C:\projects\individual-work\VSfirst\VSfirst\obj\Debug\VSfirst.csprojResolveAssemblyReference.cache
+C:\projects\individual-work\VSfirst\VSfirst\obj\Debug\VSfirst.exe
+C:\projects\individual-work\VSfirst\VSfirst\obj\Debug\VSfirst.pdb
+C:\projects\individual-work\VSfirst\VSfirst\bin\Debug\CsvHelper.dll
+C:\projects\individual-work\VSfirst\VSfirst\bin\Debug\CsvHelper.xml
