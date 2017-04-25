@@ -13,36 +13,6 @@ namespace HexToDecimalChallenge
         static void Main(string[] args)
         {
 
-            //using (var writer = File.CreateText("hex.csv"))
-            //{
-            //    writer.WriteLine("9f");
-            //    writer.WriteLine("11");
-            //    writer.WriteLine("fe54");
-            //    writer.WriteLine("4286f4");
-            //    writer.WriteLine("42f4");
-            //}
-
-            //using (var fs = File.OpenRead("hex.csv"))
-            //using (var reader = new StreamReader(fs))
-            //{
-            //    List<string> hexList = new List<string>();
-
-            //    int i = 0;
-
-            //    while (!reader.EndOfStream)
-            //    {
-
-            //        var line = reader.ReadLine();
-            //        var values = line.Split(';');
-
-            //        hexList.Add(values[i]);
-
-            //        Console.WriteLine(hexList[i]);
-
-            //        i++;
-            //    }
-            //}
-
             string[] names = new string[] { "9f", "11", "fe54", "4286f4", "42f4"};
             using (StreamWriter sw = new StreamWriter("hex.txt"))
             {
@@ -69,9 +39,49 @@ namespace HexToDecimalChallenge
                 }
             }
 
+            List<int> toBase10 = new List<int>();
+
             foreach (string hex in hexList)
             {
                 Console.WriteLine("LIST WORKS " + hex);
+                char[] charArray = hex.ToCharArray();
+                
+                Array.Reverse(charArray);
+                Console.WriteLine(charArray[1]);
+                i = 0;
+
+                while (i < charArray.Length)
+                {
+                    Console.WriteLine(i);
+                    char currentChar = charArray[i];
+                    switch (currentChar)
+                    {
+                        case 'a':
+                            Console.WriteLine("works " + 10);
+                            break;
+                        case 'b':
+                            Console.WriteLine("works " + 11);
+                            break;
+                        case 'c':
+                            Console.WriteLine("works " + 12);
+                            break;
+                        case 'd':
+                            Console.WriteLine("works " + 13);
+                            break;
+                        case 'e':
+                            Console.WriteLine("works " + 14);
+                            break;
+                        case 'f':
+                            Console.WriteLine("works " + 15);
+                            break;
+                        default:
+                            Console.WriteLine("NUMBER");
+                            break;
+                    }
+
+                    i++;
+                }
+
             }
 
             Console.ReadKey();
