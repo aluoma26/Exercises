@@ -23,7 +23,6 @@ namespace HexToDecimalChallenge
                 }
             }
 
-            // Read and show each line from the file.
             string line = "";
             int i = 0;
             List<string> hexList = new List<string>();
@@ -34,7 +33,7 @@ namespace HexToDecimalChallenge
                 while ((line = sr.ReadLine()) != null)
                 {
                     hexList.Insert(i, line);
-                    //Console.WriteLine(line);
+                    
                     i++;
                 }
             }
@@ -47,55 +46,55 @@ namespace HexToDecimalChallenge
                 char[] charArray = hex.ToCharArray();
                 
                 Array.Reverse(charArray);
-                //Console.WriteLine(charArray[1]);
+                
 
                 i = 0;
                 int hexTotal = 0;
 
                 while (i < charArray.Length)
                 {
-                    //Console.WriteLine(i);
+                    
                     char currentChar = charArray[i];
                     switch (currentChar)
                     {
                         case 'a':
-                            //Console.WriteLine("works " + 10);
+                            
                             int aValue = 10;
                             int aResult = calculateExponent(i, aValue);
                             hexTotal += aResult;
                             break;
                         case 'b':
-                            //Console.WriteLine("works " + 11);
+                            
                             int bValue = 11;
                             int bResult = calculateExponent(i, bValue);
                             hexTotal += bResult;
                             break;
                         case 'c':
-                            //Console.WriteLine("works " + 12);
+                            
                             int cValue = 12;
                             int cResult = calculateExponent(i, cValue);
                             hexTotal += cResult;
                             break;
                         case 'd':
-                            //Console.WriteLine("works " + 13);
+                            
                             int dValue = 13;
                             int dResult = calculateExponent(i, dValue);
                             hexTotal += dResult;
                             break;
                         case 'e':
-                            //Console.WriteLine("works " + 14);
+                            
                             int eValue = 14;
                             int eResult = calculateExponent(i, eValue);
                             hexTotal += eResult;
                             break;
                         case 'f':
-                            //Console.WriteLine("works " + 15);
+                            
                             int fValue = 15;
                             int fResult = calculateExponent(i, fValue);
                             hexTotal += fResult;
                             break;
                         default:
-                            //Console.WriteLine("NUMBER");
+                            
                             int charValue = int.Parse(currentChar.ToString());
                             int charResult = calculateExponent(i, charValue);
                             hexTotal += charResult;
