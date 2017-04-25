@@ -55,12 +55,23 @@ namespace HexToDecimalChallenge
 
             // Read and show each line from the file.
             string line = "";
+            int i = 0;
+            List<string> hexList = new List<string>();
             using (StreamReader sr = new StreamReader("hex.txt"))
             {
+                
+
                 while ((line = sr.ReadLine()) != null)
                 {
+                    hexList.Insert(i, line);
                     Console.WriteLine(line);
+                    i++;
                 }
+            }
+
+            foreach (string hex in hexList)
+            {
+                Console.WriteLine("LIST WORKS " + hex);
             }
 
             Console.ReadKey();
